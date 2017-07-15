@@ -8,7 +8,12 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /**
  * Basic styling
@@ -82,7 +87,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: normal;
+  color: $grey-color;
 }
 
 
@@ -95,11 +101,11 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: darken($brand-color, 10%);
   }
 
   &:hover {
-    color: $text-color;
+    color: $brand-lightest;
     text-decoration: underline;
   }
 
