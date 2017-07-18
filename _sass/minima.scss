@@ -44,6 +44,16 @@ $on-laptop:        800px !default;
   font-size: $base-font-size * $ratio;
 }
 
+.home-title {
+  background: linear-gradient(180deg, $brand-color 30%, $brand-light 80%, $brand-lightest);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @include relative-font-size(2.625);
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
+
 // Import partials.
 @import
   "minima/base",

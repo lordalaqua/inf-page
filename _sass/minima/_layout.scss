@@ -5,6 +5,7 @@
 $header-layout-change: 768px;
 
 .site-header {
+  background: $brand-light;
   background: linear-gradient(60deg, $brand-color 10%, $brand-light 80%, $brand-lightest);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   min-height: $spacing-unit * 1.865;
@@ -68,6 +69,7 @@ $header-layout-change: 768px;
     top: 0;
     right: 0px;
     left: 0px;
+    background: $brand-light;
     background: linear-gradient(60deg, $brand-color 10%, $brand-light 80%, $brand-lightest);
     content: ' ';
     display: block;
