@@ -1,7 +1,9 @@
 ---
 layout: page
-title:  "Wiimote"
+title:  "Wiiteboard"
+year: 2015
+description: Wiimote whiteboard
 categories: projects
 ---
 
-# Wiii
+# Wiiihi
